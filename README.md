@@ -1,27 +1,41 @@
 # AngularApp
 
+
+## Dependencies & Versions
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.2.
+
+Install latest version of [NodeJs](https://nodejs.org/en/download/) . Version v14.15.5 used for the development.
+
+Install latest [AngularCli](https://angular.io/cli). Version 11.0.7 used for the developlment.
+
+Run below command in git bash or in terminal to install Angular cli
+    
+    npm install -g @angular/cli
+
+## Installing dependencies 
+
+To install angular dependent packages navigate to angular-app directory and run below command : 
+
+    npm install
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## About App / Business Logic
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+The component has the following functionalities:
+* There are 4 tabs: Home, News, Contact, About.
+* The default selected tab is the 'Home' tab.
+* Clicking on a tab renders the relevant content.
+* Clicking on the Home tab renders the content 'HOME PAGE'.
+* Clicking on the News tab renders the content 'NEWS PAGE'.
+* Clicking on the Contact tab renders the content 'CONTACT PAGE'.
+* Clicking on the About tab renders the content 'ABOUT PAGE'.
+* Since the default selected tab is the 'Home' tab, the default displayed content is 'HOME PAGE'.
+
 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
